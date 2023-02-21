@@ -28,5 +28,5 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title('Student t Distribution with Varying Degrees of Freedom vs Standard Gaussian Distribution')
     plt.legend()
-    plt.savefig('output_1.png')
+    plt.savefig('ques_1_output_1.png')
     plt.show()
