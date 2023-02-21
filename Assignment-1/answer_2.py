@@ -24,9 +24,9 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title('Density plots of Beta distributions for (1,1), (5,5) and (10,10)')
     plt.legend()
-    plt.show()
     plt.savefig('output_2.png')
-
+    plt.show()
+    
     a = [1, 5, 10]
     b = [2, 6, 11]
 
@@ -39,5 +39,5 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title('Density plots of Beta distributions for (1,2), (5,6) and (10,11)')
     plt.legend()
-    plt.show()
     plt.savefig('output_3.png')
+    plt.show()

@@ -64,8 +64,8 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title(' the estimated the Gaussian distribution density, student t density and the scatter data points')
     plt.legend()
-    plt.show()
-    plt.savefig('Output_4.png')
+    #plt.show()
+    plt.savefig('output_4.png')
 
     plt.clf()
 
@@ -85,5 +85,5 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title(' the estimated the Gaussian distribution density, student t density and the scatter data points (with noises)')
     plt.legend()
-    plt.show()
-    plt.savefig('Output_5.png')    
+    #plt.show()
+    plt.savefig('output_5.png')    

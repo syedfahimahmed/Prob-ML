@@ -5,10 +5,8 @@ from scipy.special import gammaln
 
 def t_distribution(x, v):
     
-    num = np.exp(gammaln((v+1)/2))
-    denom = np.sqrt(np.pi*v) * np.exp(gammaln(v/2)) * (1+x**2/v)**((v+1)/2)
-    
-    return num/denom
+    return np.exp(gammaln((v+1)/2) - gammaln(v/2) - np.log(np.sqrt(np.pi*v)) - (v+1)/2 * np.log(1 + (x**2)/v))
+
 
 def std_gauss_distribution(x):
     
@@ -30,5 +28,5 @@ if __name__ == '__main__':
     plt.ylabel('PDF')
     plt.title('Student t Distribution with Varying Degrees of Freedom vs Standard Gaussian Distribution')
     plt.legend()
-    plt.show()
     plt.savefig('output_1.png')
+    plt.show()
