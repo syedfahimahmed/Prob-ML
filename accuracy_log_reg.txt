@@ -1,0 +1,7 @@
+Logistic regression
+Training accuracy for zero weights:: 0.9908
+Test accuracy for zero weights:: 0.9900
+
+Training accuracy for random weights:: 0.5809
+Test accuracy for random weights:: 0.5651
+

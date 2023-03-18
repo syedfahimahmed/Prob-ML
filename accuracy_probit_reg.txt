@@ -1,0 +1,7 @@
+Probit Regression
+Training accuracy for zero weights:: 0.9874
+Test accuracy for zero weights:: 0.9860
+
+Training accuracy for random weights:: 0.9782
+Test accuracy for random weights:: 0.9780
+

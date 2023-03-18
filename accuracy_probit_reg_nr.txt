@@ -1,0 +1,7 @@
+Probit Regression (Newton-Raphson scheme implemented)
+Training accuracy for zero weights:: 0.9908
+Test accuracy for zero weights:: 0.9940
+
+Training accuracy for random weights:: 0.6441
+Test accuracy for random weights:: 0.6453
+
